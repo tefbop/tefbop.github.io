@@ -1,0 +1,8 @@
+div.info {
+	background:url('images/pat-a.gif');
+	width:800px;
+	height:400px;
+	overflow:auto;
+	white-space:pre-wrap;
+	padding:1em;
+}
