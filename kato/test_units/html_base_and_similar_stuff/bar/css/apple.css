@@ -1,5 +1,5 @@
 div.info {
-	background:url("images/pat-a.gif"); /* the relative URL for our test case */
+	background:url('images/pat-a.gif'); /* the relative URL for our test case */
 	height:200px;
 	overflow:auto;
 	padding:1em;
