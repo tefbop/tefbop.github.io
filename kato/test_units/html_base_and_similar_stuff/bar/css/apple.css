@@ -1,4 +1,11 @@
 div.info {
+	/**
+	 * The URI of the background image is
+	 * "https://tefbop.github.io/略/bar/css/images/pat-a.gif" instead of
+	 * "https://tefbop.github.io/略/bar/images/pat-a.gif", because all relative
+	 * paths in a .css file are relative to the .css file itself instead of the
+	 * .html file that contains the URL of the .css file.
+     */
 	background:url('images/pat-a.gif'); /* the relative URL for our test case */
 	height:200px;
 	overflow:auto;
