@@ -1,5 +1,5 @@
 var armadillo = function() {
-	$('div#hgoOoI').css({
+	$('div#Tibetan').css({
 		/**
 		 * The URI of the background image is
 		 * "https://tefbop.github.io/略/bar/img/Tenzin%20Kunsang.jpg" instead of

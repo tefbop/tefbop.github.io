@@ -7,9 +7,15 @@ div.info {
 	 * .html file that contains the URL of the .css file.
      */
 	background:url('images/pat-a.gif'); /* the relative URL for our test case */
-	height:200px;
-	overflow:auto;
-	padding:1em;
-	white-space:pre-wrap;
-	width:800px;
+	width:800px; height:150px;
+}
+div#red_head_girl {
+	background:url("../../baz/pic/056714421f850082dadd2e147a1b7840_400x400.jpg");
+	width:200px; height:200px;
+	background-size:contain;
+}
+div#little_girl {
+	background:url("images/130x130.png");
+	width:130px; height:130px;
+	background-size:contain;
 }
