@@ -5,7 +5,7 @@
  */
 var append_message_into = function(a_sSelector) {
 	$('<p/>', {
-		text: '²{¦b®É¶¡:'+ (new Date()).toLocaleTimeString(),
+		text: 'ç¾åœ¨æ™‚é–“:'+ (new Date()).toLocaleTimeString(),
 	}).appendTo($(a_sSelector));
 };
 var camel_load_images = function() {
