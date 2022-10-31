@@ -3,18 +3,18 @@ table#eOpAmV>tbody>tr>td:nth-of-type(1)>img {
 }
 /* Refer to the 3 common images all .css files must refer to. */
 div#css_banana__little_girl {
-	background:url('../../bar/css/images/130x130.png');
+	background:url("../../bar/css/images/130x130.png");
 	width:130px; height:130px;
 	outline:red solid 3px;
 	border-radius:10px;
 	margin:1em;
 }
 table#css_banana__pattern {
-	background:url("../../bar/css/images/pat-a.gif");
+	background:url('../../bar/css/images/pat-a.gif');
 	border-radius:1em;
 }
 div#css_banana__read_head_girl {
-	background:url("../pic/056714421f850082dadd2e147a1b7840_400x400.jpg");
+	background:url(../pic/056714421f850082dadd2e147a1b7840_400x400.jpg);
 	width:100px; height:100px;
 	background-size:contain;
 	outline:red solid 3px;
