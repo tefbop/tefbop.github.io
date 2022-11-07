@@ -21,7 +21,7 @@ var bat_load_images = function() {
 		'border-radius':'1em',
 	});
 	$('div#js_bat__bady').css({
-		'background':'url("../foo/images/baby.jpg")', // TODO{2022-11-07 12:12:49} Change to an absolute URI
+		'background':'url("https://tefbop.github.io/kato/test_units/html_base_and_similar_stuff/foo/images/baby.jpg")', // relative URI: "../foo/images/baby.jpg"
 		'width':'100px', 'height':'100px',
 		'background-size':'contain',
 		'outline':'magenta 1px solid',
@@ -50,7 +50,7 @@ var bat_load_images = function() {
 	});
 	// Refer to an exclusive image with an absolute full URI.
 	$('div#a11').css({
-		'background':'url("../baz/pic/a11.png")', // TODO{2022-11-07 12:12:49} Change to an absolute URI
+		'background':'url("https://tefbop.github.io/kato/test_units/html_base_and_similar_stuff/baz/pic/a11.png")', // relative URI: "../baz/pic/a11.png"
 		'width':'106px', 'height':'178px',
 		'background-size':'contain',
 	});
