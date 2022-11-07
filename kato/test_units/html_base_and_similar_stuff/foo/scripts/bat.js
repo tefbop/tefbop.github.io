@@ -21,7 +21,7 @@ var bat_load_images = function() {
 		'border-radius':'1em',
 	});
 	$('div#js_bat__bady').css({
-		'background':'url("../foo/images/baby.jpg")',
+		'background':'url("../foo/images/baby.jpg")', // TODO{2022-11-07 12:12:49} Change to an absolute URI
 		'width':'100px', 'height':'100px',
 		'background-size':'contain',
 		'outline':'magenta 1px solid',
@@ -46,6 +46,12 @@ var bat_load_images = function() {
 	$('div#js_bat__exclusive').css({
 		'background':'url("../baz/pic/a230_h8.jpg")',
 		'width':'165px', 'height':'190px',
+		'background-size':'contain',
+	});
+	// Refer to an exclusive image with an absolute full URI.
+	$('div#a11').css({
+		'background':'url("../baz/pic/a11.png")', // TODO{2022-11-07 12:12:49} Change to an absolute URI
+		'width':'106px', 'height':'178px',
 		'background-size':'contain',
 	});
 };

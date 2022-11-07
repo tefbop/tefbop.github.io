@@ -10,7 +10,7 @@ div#css_banana__little_girl {
 	margin:1em;
 }
 table#css_banana__pattern {
-	background:url('../../bar/css/images/pat-a.gif');
+	background:url('../../bar/css/images/pat-a.gif'); /* TODO{2022-11-07 12:12:49} Change to an absolute URI */
 	border-radius:1em;
 }
 div#css_banana__read_head_girl {
@@ -32,5 +32,11 @@ div#css_banana__keeley_hazell {
 div#css_banana__serena {
 	background:url('../pic/Serena%20van%20der%20Woodsen.jpg');
 	width:150px; height:200px;
+	background-size:contain;
+}
+/* Refer to an exclusive image with an absolute full URI. */
+div#a12 {
+	background:url('../../bar/img/a12.png'); /* TODO{2022-11-07 12:12:49} Change to an absolute URI */
+	width:132px; height:170px;
 	background-size:contain;
 }
