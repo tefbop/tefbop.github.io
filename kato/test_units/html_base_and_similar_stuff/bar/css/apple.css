@@ -8,7 +8,7 @@ div.css_apple__pattern {
 	 * .html file that contains the URL of the .css file.
      */
 	background:url('images/pat-a.gif'); /* the relative URL for our test case */
-	width:800px; height:150px;
+	width:500px; height:150px;
 }
 div#css_apple__red_head_girl {
 	background:url("../../baz/pic/056714421f850082dadd2e147a1b7840_400x400.jpg");
